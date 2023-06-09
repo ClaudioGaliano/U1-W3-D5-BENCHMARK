@@ -124,6 +124,7 @@ const onlyLetters = (stringa) => {
   console.log(finalString);
 }
 
+// NON FUNZIONA :(
  onlyLetters("Ciao ho 4 anni")
 
 // upperFirstPhrase('hello world')
@@ -189,6 +190,7 @@ const rollTheDices = (n) => {
   for (i = 0; i < n; i++){
     let numeroGenerato = dice2()
     numeriEstratti.push(numeroGenerato)
+    // poi faccio metodo reduce sul mio array -- numeriEstratti.reduce((totale, valoreCorrente) => totale + valoreCorrente,0)
   }
   console.log(numeriEstratti);
 }
